@@ -186,8 +186,20 @@ body {
   left: 398px;
   width: 570;
   height: 234;
+  color: #ffffff;
 }
 
+.top__info__child1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top__info__child2 {
+  font-size: 24;
+  font-weight: 400;
+}
 
 .advantages__List {
   position: fixed;
