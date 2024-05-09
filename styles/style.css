@@ -5,7 +5,37 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+ ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+ }
 
+
+
+ input[type='range'] {
+  overflow: hidden;
+  width: 448px;
+  -webkit-appearance: none;
+  background-color: #BAF1FF;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 33px;
+  -webkit-appearance: none;
+  color: #BE69D5;
+  margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  border-radius: 100%;
+  width: 33px;
+  -webkit-appearance: none;
+  height: 33px;
+  cursor: ew-resize;
+  background: #302594;
+  box-shadow: -448px 0 0 448px #BE69D5;
+}
 
 
 .inter {
@@ -70,7 +100,7 @@ body {
   width: 1533px;
 }
 
-#warranty {
+.warranty {
   
   padding-right: 108px
 }
@@ -80,6 +110,8 @@ body {
   background-color: #302594;
   border: 0;
   border-radius: 4px;
+  width: 246px; 
+  height: 60px;
 }
 
 .topnav {
@@ -145,7 +177,6 @@ body {
   background-color: #f9f9f9;
   min-width: 160px;
   border-radius: 18px;
-
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -154,7 +185,7 @@ body {
 .dropdown-content a {
   float: none;
   color: #5C39BA;
-  padding: 12px 16px;
+  padding: 5px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -162,6 +193,7 @@ body {
 
 /* темный фон кнопок при наведении*/
 .topnav a:hover,
+
 .dropdown:hover .dropbtn {
   background-color: transparent;
   color: rgb(255, 255, 255);
