@@ -24,7 +24,7 @@ input[type='range']::-webkit-slider-runnable-track {
   height: 33px;
   -webkit-appearance: none;
   color: #BE69D5;
-  margin-top: -1px;
+  margin-top: 0px;
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -34,7 +34,7 @@ input[type='range']::-webkit-slider-thumb {
   height: 33px;
   cursor: ew-resize;
   background: #302594;
-  box-shadow: -448px 0 0 448px #BE69D5;
+  box-shadow: -448px 0 44px 448px #BE69D5;
 }
 
 
@@ -77,8 +77,6 @@ input[type='range']::-webkit-slider-thumb {
 
 body {
   background: linear-gradient(113deg, #3625af 0%, #693ebd 36%, #c46bd5 100%);
-  height: 805px;
-  width: 1920px;
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
@@ -86,26 +84,24 @@ body {
 }
 
 .header {
-  position: fixed;
-  top: 20px;
-  left: 235px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  flex-flow: row nowrap;
   font-family: 'inter', sans-serif;
   font-weight: 600;
   font-size: 16px;
   color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  height: 178px;
-  width: 1533px;
+  padding-inline: 250px;
 }
 
-.warranty {
-  
-  padding-right: 108px
-}
+
 
 .btn__call {
+  display: flex;
+  justify-content: space-around;
   color: white;
   background-color: #302594;
   border: 0;
@@ -191,21 +187,16 @@ body {
   text-align: left;
 }
 
-/* темный фон кнопок при наведении*/
-.topnav a:hover,
-
 .dropdown:hover .dropbtn {
   background-color: transparent;
   color: rgb(255, 255, 255);
 }
 
-/* Add a grey background to dropdown links on hover */
 .dropdown-content a:hover {
   border-radius: 18px;
   color: rgb(20, 93, 202);
 }
 
-/* Show the dropdown menu when the user moves the mouse over the dropdown button */
 .dropdown:hover .dropdown-content {
   display: block;
 }
