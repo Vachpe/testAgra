@@ -54,7 +54,7 @@
               <a href="#">ОТЗЫВЫ</a>
               <a href="#">КОНТАКТЫ</a>
               <a href="#">ГАРАНТИЯ</a>
-          <button class="btn__call"><a href="#">ОБРАТНЫЙ ЗВОНОК</a></button>
+              <button class="btn__call"><a href="#">ОБРАТНЫЙ ЗВОНОК</a></button>
       </div>
       </div>
     </header>
@@ -63,16 +63,16 @@
             <h1 class="top__info__child1">Ремонт под ключ от<br> 2900 руб/м².</h1>
             <h2 class="top__info__child2">При заказе ремонта делаем<br> дизайн-проект в подарок</h2>
         </div>
-        <div class="advantages__List">
-            <div>Бесплатный выезд в день обращения</div><!-- TODO add SVG icons from sprite-->
-            <div>Гарантия на работу до 5 лет</div>
-            <div>Жесткое соблюдение сроков</div>
-        </div>
+        <ul class="advantages__List">
+            <li>Бесплатный выезд в день обращения</li><!-- TODO add SVG icons from sprite-->
+            <li>Гарантия на работу до 5 лет</li>
+            <li>Жесткое соблюдение сроков</li>
+        </ul>
         <img class="room__img" src="/img/side_image.png" alt="room" width="745" height="664">
         <form class="form__math" action="/action_page.php" target="_self">
           <h2 class="form__math__price">Рассчитайте <br>стоимость ремонта</h2>
           <p class="form__math__price__space">ПЛОЩАДЬ КВАРТИРЫ</p>
-          <input type="range" min="0" max="100" step="1" value="68" onchange="document.getElementById('rangeValue').innerHTML = this.value;"> 
+          <input type="range" min="0" max="100" step="1" value="68" onchange="document.getElementById('rangeValue').innerHTML = this.value;"><!--move to script file-->
           <span id="rangeValue">68</span><span> м²</span>
           <fieldset>ТИП ЖИЛЬЯ:
             <input type="radio" name="home_type" id="type_old"><label for="type_old">Вторичное жилье</label>
@@ -90,5 +90,4 @@
       </main>
       <nav><button><a href="#" class="scroll_bottom">↓ SCROLL</a></button></nav>
   </body>
-  <script></script>
 </html>
