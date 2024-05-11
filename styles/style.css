@@ -11,8 +11,6 @@ html {
   padding: 0;
  }
 
-
-
  input[type='range'] {
   overflow: hidden;
   width: 448px;
@@ -68,13 +66,6 @@ input[type='range']::-webkit-slider-thumb {
   font-style: normal;
 }
 
-
-
-
-
-
-
-
 body {
   background: linear-gradient(113deg, #3625af 0%, #693ebd 36%, #c46bd5 100%);
   margin: 0;
@@ -97,8 +88,6 @@ body {
   padding-inline: 250px;
 }
 
-
-
 .btn__call {
   display: flex;
   justify-content: space-around;
@@ -116,7 +105,6 @@ body {
   padding-left: 151px;
 }
 
-/* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
@@ -127,32 +115,19 @@ body {
   font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-/* Add an active class to highlight the current page */
 .active {
   background-color: #4caf50;
   color: white;
 }
-
-/* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
 }
 
-/* Dropdown container - needed to position the dropdown content */
 .dropdown {
   float: left;
   overflow: hidden;
 }
 
-/* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
   font-family: 'inter', sans-serif;
   font-weight: 600;
@@ -166,7 +141,6 @@ body {
   margin: 0;
 }
 
-/* Style the dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -177,7 +151,6 @@ body {
   z-index: 1;
 }
 
-/* Style the links inside the dropdown */
 .dropdown-content a {
   float: none;
   color: #5C39BA;
@@ -200,8 +173,6 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-
 
 .top__info {
   position: fixed;
@@ -232,16 +203,11 @@ body {
   height: 110;
 }
 
-
-
-
-
 .room__img {
   position: fixed;
   top: 141px;
   left: 1175px;
 }
-
 
 .form__math {
   width: 508px;
