@@ -35,7 +35,7 @@ input[type='range']::-webkit-slider-thumb {
   box-shadow: -448px 0 44px 448px #BE69D5;
 }
 
-
+ /* add fonts from WOFF */
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
