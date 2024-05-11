@@ -201,6 +201,10 @@ body {
   left: 398px;
   width: 447;
   height: 110;
+  margin-top: 60px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .room__img {
@@ -233,10 +237,4 @@ body {
   font-family: "roboto", sans-serif;
   font-weight: 400;
   font-size: 12px;
-}
-
-.advantages__List{
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
 }
